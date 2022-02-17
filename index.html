@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium 멤버쉽 - Spotify</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/wow.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" ></script>
+</head>
+<body>
+    <p class="w_num" style="position:fixed; top:40px; right:0px; font-size:30px; color:red; margin:20px; z-index:1000;">가로 넓이</p>
+    
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+            <div class="container-xxl">
+            <a class="navbar-brand" href="#">
+                <img src="img/Logo.svg" alt="" width="127" height="38">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item text-center">
+                        <a class="nav-link hover" aria-current="page" href="#">프리미엄</a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <a class="nav-link hover" href="#">지원</a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <a class="nav-link hover" href="#">다운로드</a>
+                    </li>
+                    <span class="bar"></span>
+                    <li class="nav-item text-center">
+                        <a class="nav-link hover"  href="#">회원가입</a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <a class="nav-link hover" href="#" >로그인</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+        <div class="container-xl d-flex justify-content-center justify-content-xl-between align-items-center">
+            <div class="text-xl-start text-center mb-5 text-white">
+                <span class="d-none d-md-block">Millions of songs<br>
+                    and podcasts. No credit card needed.
+                </span>
+                <h2 class="mb-3">
+                    Listening is <br class="d-sm-none">everything <span class="v_dot_color">.</span>
+                </h2>
+                <h4>Spotify에서 좋아하는 음악을 스트리밍하고,<br class="d-sm-none d-block"> 
+                    전 세계 다양한 음악 중<br class="d-none d-md-block"> 
+                    내 취향에 맞는 곡을 발견해보세요. <br class="d-sm-none d-block">Spotify Premium의 멤버가 되어보세요. 
+                </h4>
+                <button class="btn text-white px-4 me-md-3 mx-auto rounded-pill v_btn_start">시작하기</button>
+                <button class="btn btn-outline-light px-3 mx-auto rounded-pill v_btn_bill">요금제 보기</button>
+            </div>
+            <div class="v_phone me-4 d-none d-xl-block">
+                <img src="img/main_phone.png" class="animate__animated animate__fadeInRight100" alt="">
+            </div>
+        </div>
+    </header>
+
+    <!-- 첫번째 section START -->
+    <section class="section01" id="s1">
+        <div class="container-xl text-center d-md-flex">
+                <div class="col-md-4 text-md-center s1_item">
+                    <img src="img/icon1.svg" alt="새로운 음악 발견하기">
+                    <div class="s1_txtWrap text-white">
+                        <h3 class="mt-md-4">새로운 음악 발견하기</h3>
+                        <p class="mt-md-3">7천만 개가 넘는 트랙에서<br>
+                            새로운 음악, 앨범 및 플레이리스트 발견하기</p>
+                    </div>   
+                </div>
+                <div class="col-md-4 text-md-center s1_item">
+                    <img src="img/icon2.svg" alt="나만의 플레이리스트">
+                    <div class="s1_txtWrap text-white">
+                        <h3 class="mt-md-4">나만의 플레이리스트</h3>
+                        <p class="mt-md-3">내 취향에 맞는 음악 플레이리스트 감상하기<br>
+                            나만의 플레이리스트를 만들고 공유하기</p>
+                    </div>   
+                </div>
+                <div class="col-md-4 text-md-center s1_item">
+                    <img src="img/icon3.svg" alt="여러 기기에서 스트리밍">
+                    <div class="s1_txtWrap text-white">
+                        <h3 class="mt-md-4">여러 기기에서 스트리밍</h3>
+                        <p class="mt-md-3">모바일, 태블릿, 데스크탑, PlayStation, <br>Chromecast, TV, Wear OS 워치로 음악을 <br>비롯한 다양한 콘텐츠 듣기</p>
+                    </div>   
+                </div>
+        </div>
+    </section>
+    <!-- 첫번째 section END -->
+
+    <!-- 두번째 section START -->
+    <section class="section02 text-white">
+        <div class="container-xl section02_inner">
+            <div class="d-md-flex justify-content-md-between align-items-center">
+                <div class="s2_img_wrap">
+                    <img class="animate__animated animate__zoomIn100 animate__delay-1s wow" src="img/img2.jpg" alt="">
+                </div>
+                <div class="col-md-6 ms-md-2 text-md-start s2_txtWrap">
+                    <h2 class="mb-4">help you discover<br>
+                        new music every week <span class="s2_dot_color">.</span></h2> 
+                    <p>Spotify에서 수많은 음악, 선별된 플레이리스트, 좋아하는 아티스트를 들을 수 있습니다. 최신 음악으로 나만의 음악 플레이리스트를 만들어보세요.</p>
+                    <button class="btn text-white px-4 rounded-pill v_btn_more text-md-end">Learn more</button>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- 두번째 section END -->
+
+    <!-- 세번째 section START -->
+    <section class="section03 text-white" id="s3">
+        <div class="container-xl">
+            <div class="row">
+                <div class="topTitle text-center">
+                    <h2>요금제 선택하기</h2>
+                    <p class="mb-4">휴대폰, 스피커 및 기타 디바이스에서 제한 없이 마음껏 들으세요.</p>
+                </div>
+                <div class="billwrap d-md-flex justify-content-center pt-5">
+                    <a href="#">
+                        <article class="bill_container d-flex flex-column align-items-center">
+                        <div class="priWrap text-center mb-4">
+                            <span class="free badge rounded-pill">
+                                3개월 무료
+                            </span>
+                            <div class="priWrap">
+                                <h3 class="person">개인</h3>
+                                <p class="month">매월 10,900원</p>
+                                <small>(부가세 별도)</small>
+                            </div>
+                        </div>
+                        <div class="list">
+                            <ul class="p-0">
+                                <li><i class="bi bi-check-lg"></i> 계정 1개</li>
+                                <li><i class="bi bi-check-lg"></i> 광고 없는 음악 감상</li>
+                                <li><i class="bi bi-check-lg"></i> 다운로드하여 오프라인에서 감상</li>
+                                <li><i class="bi bi-check-lg"></i> 나만의 맞춤 플레이리스트</li>
+                                <li><i class="bi bi-check-lg"></i> 7천만 개에 달하는 곡</li>
+                                <li><i class="bi bi-check-lg"></i> 여러 기기에서 감상</li>
+                            </ul>
+                        </div>
+                        </article>
+                    </a>
+                    <a href="#">
+                        <article class="bill_container d-flex flex-column align-items-center d-flex">
+                            <div class="priWrap text-center mb-4">
+                                <span class="free badge rounded-pill">
+                                    1개월 무료
+                                </span>
+                                <div class="priWrap">
+                                    <h3 class="person">듀오</h3>
+                                    <p class="month">매월 16,350원</p>
+                                    <small>(부가세 별도)</small>
+                                </div>
+                            </div>
+                            <div class="list">
+                                <ul class="p-0">
+                                    <li><i class="bi bi-check-lg"></i> Premium 계정 2개</li>
+                                    <li><i class="bi bi-check-lg"></i> 광고 없는 음악 감상</li>
+                                    <li><i class="bi bi-check-lg"></i> 다운로드하여 오프라인에서 감상</li>
+                                    <li><i class="bi bi-check-lg"></i> 나만의 맞춤 플레이리스트</li>
+                                    <li><i class="bi bi-check-lg"></i> 7천만 개에 달하는 곡</li>
+                                    <li><i class="bi bi-check-lg"></i> 여러 기기에서 감상</li>
+                                </ul>
+                            </div>
+                        </article>
+                    </a>
+                </div>
+                <div class="subs_btn text-center">
+                    <button class="btn rounded-pill">구독 시작하기</button>
+                    <p class="mt-4">체험 기간 이후에는 월정액 요금이 부과되며 약관이 적용됩니다.<br> 아직 Premium
+                        구독을 해본 적이 없는 사용자만 이 혜택을 이용하실 수 있습니다.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 세번째 section END -->
+
+<!-- 네번째 section START -->
+<div class="outro" id="s4">
+    <div class="text-white">
+        <div class="topTitle container-xl text-center">
+            <h2>앱을 다운로드하세요 <span class="v_dot_color">.</span></h2>
+            <p class="mb-4">
+                1개의 모바일 폰에서 7일 동안 무료로 Spotify Premium 멤버십을 이용해보세요.<br>
+                결제 정보는 필요하지 않습니다.
+            </p>
+            <div class="store d-inline-block">
+                <a href="#"><img class="me-4" src="img/appstore.svg" alt=""></a>
+                <a href="#"><img src="img/googleplay.svg" alt=""></a>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- 네번째 section END -->
+
+<footer>
+    <div class="container-xl">
+        <div class="footerWrap d-sm-flex justify-content-between">
+            <div class="d-md-flex mt-5 mt-sm-0">
+                <div class="me-5">
+                    <a class="text-white fs-3" href="#">
+                        <img src="img/Logo.svg" alt="">
+                    </a>
+                </div>
+                <div class="pt-sm-3 me-sm-5 ">
+                    <h3 class="mt-4 mt-md-0">COMPANY</h3>
+                    <ul class="">
+                        <li><a href="#">상세정보</a></li>
+                        <li><a href="#">채용 정보</a></li>
+                        <li><a href="#">For the Record</a></li>
+                    </ul>
+                </div>
+                <div class="pt-sm-3 me-sm-5">
+                    <h3 class="mt-4 mt-md-0">COMMUNITIES</h3>
+                    <ul class="">
+                        <li><a href="#">아티스트</a></li>
+                        <li><a href="#">개발자</a></li>
+                        <li><a href="#">투자자</a></li>
+                        <li><a href="#">공급업체</a></li>
+                    </ul>
+                </div>
+                <div class="pt-sm-3 me-sm-5">
+                    <h3 class="mt-4 mt-md-0">USEFUL LINKS</h3>
+                    <ul class="">
+                        <li><a href="#">지원</a></li>
+                        <li><a href="#">웹 플레이어</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sns">
+                <ul class="d-flex">
+                    <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                    <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                    <li><a href="#"><i class="bi bi-youtube"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="address d-sm-flex justify-content-between text-white align-items-end">
+            <div class="left">
+                <a href="#">법률 정보</a>
+                <a href="#">개인정보 보호 센터</a>
+                <a href="#">개인정보 처리방침</a>
+            </div>
+            <div class="left">
+                <a href="#" class="d-block mb-sm-2">대한민국 (한국어)</a>
+                <span>© 2022 Spotify AB</span>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script>
+        var winWidth = $(window).width();  //브라우저의 가로길이를 구해서 변수에 넣어준다
+        $('.w_num').text(winWidth);     //화면 w_num안에 위에서 구한 가로길이를 보여준다
+
+        $(window).resize(function(){
+            var winWidth = $(window).width();
+            $('.w_num').text(winWidth);
+        });
+    </script>
+    <script src="js/main.js"></script>
+</body>
+</html>
