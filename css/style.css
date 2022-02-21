@@ -35,7 +35,7 @@ header {
     border:0;
 }
 .navbar-dark .navbar-toggler-icon {
-    width:42px;
+    width:35px;
     height:20px;
     background-image:url(../img/nav_button.png);
 }
@@ -128,12 +128,18 @@ section {padding:100px 0;}
     background:#272726;
     border-radius:20px;
     padding:60px 75px 60px 75px;
+    transition:.3s;
+    cursor: pointer;
 }
 .section03 .bill_container:hover {
     border:1px solid #1DB954;
     position: relative;
+    box-sizing: border-box;
 }
-
+.on {
+    bottom:20px;
+    border:1px solid #1DB954;
+}
 
 .section03 .bill_container:first-child {margin-right:25px;}
 .section03 .bill_container:nth-child(2) {margin-left:25px;}
@@ -307,7 +313,7 @@ footer .address .left a {margin-right:15px;}
     }
 
     .section03 .bill_container{
-    padding:60px 75px 45px 75px;
+    padding:60px 20px 45px 20px;
     }
     .section03 .bill_container:first-child {
         margin-right:0px;
@@ -321,7 +327,10 @@ footer .address .left a {margin-right:15px;}
     margin-bottom:0;
     }
     .section03 .priWrap small {font-size:14px;}
-    .section03 .list {margin-left:0px; font-size:15px;}
+    .section03 .list {
+        margin-left:0px;
+        font-size:15px;
+    }
     
     .section03 .subs_btn button {
     background: #1DB954;
@@ -360,4 +369,7 @@ footer .address .left a {margin-right:15px;}
         margin-top:24px;
     }
     .section01 .s1_item:first-child {margin-top:0;}
+
+    /*footer*/
+
 }
