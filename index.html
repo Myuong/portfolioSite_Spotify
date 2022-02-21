@@ -4,259 +4,324 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <title>Premium 멤버쉽 - Spotify 리뉴얼</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" >
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    <title>명희진 포토폴리오</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/normalize.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" ></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/basic.css">
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-            <div class="container-xxl">
-            <a class="navbar-brand" href="#">
-                <img src="img/Logo.svg" alt="" width="127" height="38">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                    <li class="nav-item text-center">
-                        <a class="nav-link hover" aria-current="page" href="#">프리미엄</a>
-                    </li>
-                    <li class="nav-item text-center">
-                        <a class="nav-link hover" href="#">지원</a>
-                    </li>
-                    <li class="nav-item text-center">
-                        <a class="nav-link hover" href="#">다운로드</a>
-                    </li>
-                    <span class="bar"></span>
-                    <li class="nav-item text-center">
-                        <a class="nav-link hover"  href="#">회원가입</a>
-                    </li>
-                    <li class="nav-item text-center">
-                        <a class="nav-link hover" href="#" >로그인</a>
-                    </li>
-                </ul>
-            </div>
-            </div>
-        </nav>
-        <div class="container-xl d-flex justify-content-center justify-content-xl-between align-items-center">
-            <div class="text-xl-start text-center mb-5 text-white">
-                <span class="d-none d-md-block">Millions of songs<br>
-                    and podcasts. No credit card needed.
-                </span>
-                <h2 class="mb-3">
-                    Listening is <br class="d-sm-none">everything <span class="v_dot_color">.</span>
-                </h2>
-                <h4>Spotify에서 좋아하는 음악을 스트리밍하고,<br class="d-sm-none d-block"> 
-                    전 세계 다양한 음악 중<br class="d-none d-md-block"> 
-                    내 취향에 맞는 곡을 발견해보세요. <br class="d-sm-none d-block">Spotify Premium의 멤버가 되어보세요. 
-                </h4>
-                <button class="btn text-white px-4 me-md-3 mx-auto rounded-pill v_btn_start">시작하기</button>
-                <button class="btn btn-outline-light px-3 mx-auto rounded-pill v_btn_bill">요금제 보기</button>
-            </div>
-            <div class="v_phone me-4 d-none d-xl-block">
-                <img src="img/main_phone.png" data-aos="fade-left" alt="">
-            </div>
-        </div>
+        <a href="#s3" class="pagination3">contact</a>
     </header>
-
-    <!-- 첫번째 section START -->
-    <section class="section01" id="s1">
-        <div class="container-xl text-center d-md-flex">
-                <div class="col-md-4 text-md-center" data-aos="fade-up">
-                    <img src="img/icon1.svg" alt="새로운 음악 발견하기">
-                    <div class="s1_txtWrap text-white">
-                        <h3 class="mt-md-4">새로운 음악 발견하기</h3>
-                        <p class="mt-md-3">7천만 개가 넘는 트랙에서<br>
-                            새로운 음악, 앨범 및 플레이리스트 발견하기</p>
-                    </div>   
-                </div>
-                <div class="col-md-4 text-md-center" data-aos="fade-up" data-aos-delay="50">
-                    <img src="img/icon2.svg" alt="나만의 플레이리스트">
-                    <div class="s1_txtWrap text-white">
-                        <h3 class="mt-md-4">나만의 플레이리스트</h3>
-                        <p class="mt-md-3">내 취향에 맞는 음악 플레이리스트 감상하기<br>
-                            나만의 플레이리스트를 만들고 공유하기</p>
-                    </div>   
-                </div>
-                <div class="col-md-4 text-md-center" data-aos="fade-up" data-aos-delay="100">
-                    <img src="img/icon3.svg" alt="여러 기기에서 스트리밍">
-                    <div class="s1_txtWrap text-white">
-                        <h3 class="mt-md-4">여러 기기에서 스트리밍</h3>
-                        <p class="mt-md-3">모바일, 태블릿, 데스크탑, PlayStation, <br>Chromecast, TV, Wear OS 워치로 음악을 <br>비롯한 다양한 콘텐츠 듣기</p>
-                    </div>   
-                </div>
-        </div>
-    </section>
-    <!-- 첫번째 section END -->
-
-    <!-- 두번째 section START -->
-    <section class="section02 text-white">
-        <div class="container-xl section02_inner">
-            <div class="d-md-flex justify-content-md-between align-items-center">
-                <div class="s2_img_wrap">
-                    <img data-aos="zoom-in" src="img/img2.jpg" alt="">
-                </div>
-                <div class="col-md-6 ms-md-2 text-md-start s2_txtWrap">
-                    <h2 class="mb-4" data-aos="fade-right">help you discover<br>
-                        new music every week <span class="s2_dot_color">.</span></h2> 
-                    <p data-aos="fade-right">Spotify에서 수많은 음악, 선별된 플레이리스트, 좋아하는 아티스트를 들을 수 있습니다. 최신 음악으로 나만의 음악 플레이리스트를 만들어보세요.</p>
-                    <button class="btn text-white px-4 rounded-pill v_btn_more text-md-end" data-aos="fade-right" data-aos-delay="100">Learn more</button>
-                </div>
-                
-            </div>
-        </div>
-    </section>
-    <!-- 두번째 section END -->
-
-    <!-- 세번째 section START -->
-    <section class="section03 text-white" id="s3">
-        <div class="container-xl">
-            <div class="row">
-                <div class="topTitle text-center" data-aos="fade-up">
-                    <h2>요금제 선택하기</h2>
-                    <p class="mb-4">휴대폰, 스피커 및 기타 디바이스에서 제한 없이 마음껏 들으세요.</p>
-                </div>
-                <div class="billwrap d-md-flex justify-content-center pt-5" data-aos="fade-up">
-                    <a href="#">
-                        <article class="bill_container d-flex flex-column align-items-center">
-                        <div class="priWrap text-center mb-4">
-                            <span class="free badge rounded-pill">
-                                3개월 무료
-                            </span>
-                            <div class="priWrap">
-                                <h3 class="person">개인</h3>
-                                <p class="month">매월 10,900원</p>
-                                <small>(부가세 별도)</small>
-                            </div>
+    <main>
+        <section class="swiper-container">
+            <div class="swiper-wrapper">
+                <article class="swiper-slide screen01">
+                    <div class="bg_blur"></div>
+                    <div class="ball"></div>
+                    <div class="container">
+                        <div class="bg-line1">
+                            <div class="outer_line"></div>
+                            <div class="inner_line"></div>
                         </div>
-                        <div class="list">
-                            <ul class="p-0">
-                                <li><i class="bi bi-check-lg"></i> 계정 1개</li>
-                                <li><i class="bi bi-check-lg"></i> 광고 없는 음악 감상</li>
-                                <li><i class="bi bi-check-lg"></i> 다운로드하여 오프라인에서 감상</li>
-                                <li><i class="bi bi-check-lg"></i> 나만의 맞춤 플레이리스트</li>
-                                <li><i class="bi bi-check-lg"></i> 7천만 개에 달하는 곡</li>
-                                <li><i class="bi bi-check-lg"></i> 여러 기기에서 감상</li>
-                            </ul>
-                        </div>
-                        </article>
-                    </a>
-                    <a href="#">
-                        <article class="bill_container d-flex flex-column align-items-center d-flex">
-                            <div class="priWrap text-center mb-4">
-                                <span class="free badge rounded-pill">
-                                    1개월 무료
-                                </span>
-                                <div class="priWrap">
-                                    <h3 class="person">듀오</h3>
-                                    <p class="month">매월 16,350원</p>
-                                    <small>(부가세 별도)</small>
+                        <div class="about_tp">
+                            <div class="about_txtWrap">
+                                <h1 class="ab_title">Hello!<br>
+                                    계속해서<i>Upgrade</i>하는<br>
+                                    <strong>웹 퍼블리셔 명희진 입니다!</strong></h1>
+                                <div class="ab_subWrap">
+                                    <p class="ab_sub_title">
+                                        <span>01</span>
+                                        안녕하세요! 신입 웹 퍼블리셔 명희진입니다. 웹 표준에 맞춘 안정성있는 마크업과 감각적인 디자인의 웹 사이트를 만듭니다.
+                                        텅빈 화면에서 하나의 완전한 사이트를 만들어가듯, 성실하고 꾸준한 웹 퍼블리셔가 되도록 노력하겠습니다!
+                                    </p>
+                                    <p class="ab_sub_title2">
+                                        <span>02</span>
+                                        계속해서 발전하는 웹 환경에 맞추어 업그레이드하는 웹 퍼블리셔, 나홀로가 아닌 동료들과 함께 업그레이드 하는 사람이 되겠습니다.
+                                        자, 이제 옆으로 스크롤을 해주세요!
+                                    </p>
                                 </div>
+                                
                             </div>
-                            <div class="list">
-                                <ul class="p-0">
-                                    <li><i class="bi bi-check-lg"></i> Premium 계정 2개</li>
-                                    <li><i class="bi bi-check-lg"></i> 광고 없는 음악 감상</li>
-                                    <li><i class="bi bi-check-lg"></i> 다운로드하여 오프라인에서 감상</li>
-                                    <li><i class="bi bi-check-lg"></i> 나만의 맞춤 플레이리스트</li>
-                                    <li><i class="bi bi-check-lg"></i> 7천만 개에 달하는 곡</li>
-                                    <li><i class="bi bi-check-lg"></i> 여러 기기에서 감상</li>
+                        </div>
+                        <div class="about_bt"></div>
+                        <span class="arrow">
+                            scroll
+                        </span>
+                        <div class="bg_main">
+                        </div>
+                    </div>
+                </article>
+                <article class="swiper-slide screen02">
+                    <div class="bg_blur blur_ab"></div>
+                    <div class="ball ball_ab"></div>
+                    <div class="container">
+                        <div class="bg-line1">
+                            <div class="outer_line"></div>
+                            <div class="inner_line"></div>
+                        </div>
+                        <div class="about_tp">
+                            <div class="study_txtWarp">
+                                <h1 class="st_title">
+                                    <span>What I can <span style="color:#1FD15F">do</span></span>
+                                    <p>제가 배운것들을 소개합니다.</p>
+                                </h1>
+                                <p class="st_sub_title">
+                                     그린 컴퓨터 아카데미에서 'UX/UI 반응형 웹 디자인&웹 퍼블리셔 양성과정'을 수료하면서 HTML5, CSS3, jQery, Javascript를 배웠습니다. 또한 bootstrap과 플러그인 활용방법을 익혔습니다.Adobe Photoshop, Illustrator, XD, After Effect와 같은 디자인툴을 능숙하게 사용합니다.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="about_bt">
+                            <div class="bottom_left">
+                                <ul class="program_list">
+                                    <li class="program_item">
+                                        <div class="pro_tp">
+                                            <div class="pro_wrap">
+                                                <img src="img/html_b.svg" alt="HTML">
+                                                <span class="pro_title">HTML</span>
+                                            </div>
+                                        </div>
+                                        <div class="pro_bt">
+                                            <div class="pro_wrap_bt">
+                                                <img src="img/ps_b.svg" alt="Photoshop">
+                                                <span class="pro_title">Photoshop</span>
+                                            </div>
+                                    </li>
+                                    <li class="program_item">
+                                        <div class="pro_tp">
+                                            <div class="pro_wrap">
+                                                <img src="img/css_b.svg" alt="css">
+                                                <span class="pro_title">css</span>
+                                            </div>
+                                        </div>
+                                        <div class="pro_bt">
+                                            <div class="pro_wrap_bt">
+                                                <img src="img/ai_b.svg" alt="Illustrator">
+                                                <span class="pro_title">Illustrator</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="program_item">
+                                        <div class="pro_tp">
+                                            <div class="pro_wrap">
+                                                <img src="img/jq_b.svg" alt="jQuery">
+                                                <span class="pro_title">jQuery</span>
+                                            </div>
+                                        </div>
+                                        <div class="pro_bt">
+                                            <div class="pro_wrap_bt">
+                                                <img src="img/xd_b.svg" alt="XD">
+                                                <span class="pro_title">XD</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="program_item">
+                                        <div class="pro_tp">
+                                            <div class="pro_wrap">
+                                                <img src="img/js_b.svg" alt="Javascript">
+                                                <span class="pro_title">Javascript</span>
+                                            </div>
+                                        </div>
+                                        <div class="pro_bt">
+                                            <div class="pro_wrap_bt">
+                                                <img src="img/ae_b.svg" alt="After Effects">
+                                                <span class="pro_title">After Effects</span>
+                                            </div>
+                                        </div>
+                                    </li>
                                 </ul>
                             </div>
-                        </article>
-                    </a>
-                </div>
-                <div class="subs_btn text-center">
-                    <button class="btn rounded-pill">구독 시작하기</button>
-                    <p class="mt-4">체험 기간 이후에는 월정액 요금이 부과되며 약관이 적용됩니다.<br> 아직 Premium
-                        구독을 해본 적이 없는 사용자만 이 혜택을 이용하실 수 있습니다.</p>
-                </div>
+                            <div class="bottom_right">
+                                <span class="arrow2"></span>
+                            </div>
+                        </div>
+                        <span class="arrow">
+                            scroll
+                        </span>
+                    </div>
+                </article>
+                <article class="swiper-slide screen03">
+                    <div class="container work_con">
+                        <div class="bg-line1">
+                            <div class="outer_line"></div>
+                            <div class="inner_line"></div>
+                        </div>
+                        <div class="sec_tp">
+                            <div class="works_txtWarp">
+                                <h1 class="work_title">
+                                    부천국제판타스틱영화제
+                                    <span><em> renewal</em></span>
+                                </h1>
+                                
+                                <div class="work_subWrap">
+                                    <ul class="work_sub_list">
+                                        <li>데스크탑, 모바일</li>
+                                        <li>HTML / CSS / jQery</li>
+                                        <li>Redesign / Publishing
+                                            100%</li>
+                                    </ul>
+                                    <div class="work_sub_desc">
+                                        부천국제판타스틱영화제 메인화면을 리뉴얼한 적응형 사이트입니다. 데스크탑 사이트에는 Slick 슬라이더 플러그인을, 모바일 사이트에는 Swiper 슬라이더 플러그인이 활용되었습니다.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sec_bt">
+                            <div class="work_btn pc">
+                                <a href="https://myuong.github.io/portfolioSite_BIFAN_desktop_renewal/" target='_blank'>
+                                    데스크탑 사이트 보기
+                                    <span class="work_arrow"></span>
+                                </a>
+                            </div>
+                            <div class="work_btn mob">
+                                <a href="https://myuong.github.io/portfolioSite_BIFAN_mobile_renewal/" target="_blank">모바일 사이트 보기
+                                    <div><span class="work_arrow"></span></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="bg_img">
+                            <img src="img/work1_2.jpg" alt="부천국제판타스틱 국제영화제">
+                        </div>
+                        <span class="arrow_w">
+                            scroll
+                        </span>
+                    </div>
+                </article>
+                <article class="swiper-slide screen04">
+                    <div class="container work_con">
+                        <div class="bg-line1">
+                            <div class="outer_line"></div>
+                            <div class="inner_line"></div>
+                        </div>
+                        <div class="sec_tp">
+                            <div class="works_txtWarp">
+                                <h1 class="work_title">
+                                    유어마인드
+                                    <span><em> renewal</em></span>
+                                </h1>
+                                <div class="work_subWrap">
+                                    <ul class="work_sub_list">
+                                        <li>반응형 사이트</li>
+                                        <li>HTML / CSS / jQery</li>
+                                        <li>Redesign / Publishing
+                                            100%</li>
+                                    </ul>
+                                    <div class="work_sub_desc">
+                                        서점 유어마인드의 메인화면을 리뉴얼하였습니다. flex를 적극 활용하여 마크업한 반응형 사이트입니다. 슬라이드 기능에는 Swiper 플러그인이 활용되었습니다.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sec_bt">
+                            <div class="work_btn pc">
+                                <div class="bg_blur_work"></div>
+                                <a href="https://myuong.github.io/portfolioSite_YOURMIND_renewal/" target="_blank">
+                                    반응형 사이트 보기
+                                    <span class="work_arrow"></span>
+                                </a>
+                            </div>
+                            <div class="work_et">
+                            </div>
+                            <div>
+                                
+                            </div>
+                        </div>
+                        <div class="bg_img">
+                            <img src="img/work2_3.jpg" alt="유어마인드">
+                        </div>
+                        <span class="arrow_w">
+                            scroll
+                        </span>
+                    </div>
+                </article>
+                <article class="swiper-slide screen05">
+                    <div class="container work_con">
+                        <div class="bg-line1">
+                            <div class="outer_line"></div>
+                            <div class="inner_line"></div>
+                        </div>
+                        <div class="sec_tp">
+                            <div class="works_txtWarp">
+                                <h1 class="work_title">
+                                    스포티파이
+                                    <span><em> renewal</em></span>
+                                </h1>
+                                <div class="work_subWrap">
+                                    <ul class="work_sub_list">
+                                        <li>반응형 사이트</li>
+                                        <li>HTML / CSS / bootstrap</li>
+                                        <li>Redesign / Publishing
+                                            100%</li>
+                                    </ul>
+                                    <div class="work_sub_desc">
+                                        스포티파이 멤버쉽 사이트를 리뉴얼하였습니다. bootstrap을 적극 활용하여 제작한 반응형 사이트 입니다.
+                                        스크롤 애니메이션에는 AOS 라이브러리가 활용되었습니다.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sec_bt">
+                            <div class="work_btn pc">
+                                <div class="bg_blur_work"></div>
+                                <a href="https://myuong.github.io/portfolioSite_Spotify_renewal/" target="_blank">반응형 사이트 보기
+                                    <span class="work_arrow"></span>
+                                </a>
+                            </div>
+                            <div class="work_et">
+                            </div>
+                            <div>
+                                
+                            </div>
+                        </div>
+                        <div class="bg_img">
+                            <img src="img/work3.jpg" alt="스포티파이">
+                        </div>
+                        <span class="arrow_w">
+                            scroll
+                        </span>
+                    </div>
+                </article>
             </div>
-        </div>
-    </section>
-    <!-- 세번째 section END -->
-
-<!-- 네번째 section START -->
-<div class="outro" id="s4">
-    <div class="text-white">
-        <div class="topTitle container-xl text-center">
-            <h2>앱을 다운로드하세요 <span class="v_dot_color">.</span></h2>
-            <p class="mb-4">
-                1개의 모바일 폰에서 7일 동안 무료로 Spotify Premium 멤버십을 이용해보세요.<br>
-                결제 정보는 필요하지 않습니다.
-            </p>
-            <div class="store d-inline-block">
-                <a href="#"><img class="me-4" src="img/appstore.svg" alt=""></a>
-                <a href="#"><img src="img/googleplay.svg" alt=""></a>
+            <div class="swiper-pagination"></div>
+        </section>
+        <section class="screen_last">
+            <div class="ballWrap">
+                <div class="ball_top"></div>
             </div>
-        </div>
-
-    </div>
-</div>
-<!-- 네번째 section END -->
-
-<footer>
-    <div class="container-xl">
-        <div class="footerWrap d-sm-flex justify-content-between">
-            <div class="d-md-flex mt-5 mt-sm-0">
-                <div class="me-5">
-                    <img class="text-white fs-3" src="img/Logo.svg" alt="">
+            <div class="container_bottom">
+                <div class="bg_blur"></div>
+                <div class="bg-line1_bt">
+                    <div class="outer_line_bt"></div>
+                    <div class="inner_line_bt"></div>
                 </div>
-                <div class="pt-sm-3 me-sm-5 ">
-                    <h3 class="mt-4 mt-md-0">COMPANY</h3>
-                    <ul class="">
-                        <li><a href="#">상세정보</a></li>
-                        <li><a href="#">채용 정보</a></li>
-                        <li><a href="#">For the Record</a></li>
-                    </ul>
+                <div class="con_tp">
+                    <div class="con_txtWrap">
+                        <h1 class="con_title">
+                            <span class="con_me"><i>Contact me!</i></span>
+                            <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=hjmyung7@amail.com" target="_blank">
+                            hjmyung7@Gmail.com
+                            </a>
+                        </h1>
+                        <p class="con_sub_title">언제나 새로운 사람, 새로운 프로젝트를 만나길 바라고 있습니다.<br>
+                            편하게 연락해주세요!</p>
+                    </div>
+                    <div class="con_btWrap">
+                        <div class="copy">
+                            <p>Copyright © Hee Jin Myoung</p>
+                            <p>본 사이트는 상업적 목적이 아닌 개인 포트폴리오 사이트로 제작되었습니다.</p>
+                        </div>
+                        <button class="arrow_top">
+                            click
+                        </button>
+                    </div>
                 </div>
-                <div class="pt-sm-3 me-sm-5">
-                    <h3 class="mt-4 mt-md-0">COMMUNITIES</h3>
-                    <ul class="">
-                        <li><a href="#">아티스트</a></li>
-                        <li><a href="#">개발자</a></li>
-                        <li><a href="#">투자자</a></li>
-                        <li><a href="#">공급업체</a></li>
-                    </ul>
-                </div>
-                <div class="pt-sm-3 me-sm-5">
-                    <h3 class="mt-4 mt-md-0">USEFUL LINKS</h3>
-                    <ul class="">
-                        <li><a href="#">지원</a></li>
-                        <li><a href="#">웹 플레이어</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="sns">
-                <ul class="d-flex">
-                    <li><a href="#"><i class="bi bi-twitter"></i></a></li>
-                    <li><a href="#"><i class="bi bi-instagram"></i></a></li>
-                    <li><a href="#"><i class="bi bi-youtube"></i></a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="address d-sm-flex justify-content-between text-white align-items-end">
-            <div class="left">
-                <a href="#">법률 정보</a>
-                <a href="#">개인정보 보호 센터</a>
-                <a href="#">개인정보 처리방침</a>
-            </div>
-            <div class="left">
-                <a href="#" class="d-sm-block mb-sm-2">대한민국 (한국어)</a>
-                <span>© 2022 Spotify AB</span>
-            </div>
-        </div>
-    </div>
-</footer>
-<script src="js/main.js"></script>
+            </div>  
+        </section>
+    </main>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main3.js"></script>
 </body>
 </html>
