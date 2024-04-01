@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
 * {margin:0; padding:0; box-sizing:border-box;}
 li {list-style:none;}
-a {text-decoration:none; color:inherit;}
+a {text-decoration:none; color:inherit; transition:all 0.3s;}
 body {
     font-family:'Lato','Noto Sans KR', sans-serif;
     background:#000000;
@@ -55,15 +55,22 @@ header h2 {
     font-weight:700;
     letter-spacing:-2px;
 }
+
+.subtitle {
+    letter-spacing:0.5px;
+    line-height:1.4;
+}
+
 .v_dot_color {
     font-size:4vw;
     color: #1DB954;
 }
+
 header h4 {
     font-size:18px;
-    line-height:1.4;
-    color:rgba(255, 255, 255, 0.85);
-    margin-bottom:95px;
+    line-height:1.5;
+    color:#fff;
+    margin-bottom:85px;
 } 
 header .btn {font-size:17px;}
 .v_btn_start {background:#1DB954;}
@@ -90,7 +97,8 @@ section {padding:100px 0;}
 .section02 h2 {
     font-size:55px;
     font-weight:700;
-    transition:.5s;
+    transition:all 0.5s;
+    white-space:nowrap;
 }
 .s2_dot_color {
     font-size:55px;
@@ -101,6 +109,7 @@ section {padding:100px 0;}
 .section02 p {
     width:80%;
     margin-bottom:65px;
+    line-height:1.6;
     transition:.5s;
 }
 .section02 button {background: #1DB954;}
@@ -228,6 +237,12 @@ footer .address {
     padding-top:100px;
     font-size:12px;
 }
+
+.copy {
+    color:#999;
+}
+
+
 footer .address .left a {margin-right:15px;}
 .sns a:hover i, footer .address .left a:hover  {color: #1DB954;}
 
@@ -248,7 +263,7 @@ footer .address .left a {margin-right:15px;}
     .section02 p {
         width:80%;
         font-size:14px;
-        margin-bottom:25px;
+        margin-bottom:45px;
     }
     .section02 button {background: #1DB954;}
     .section02 button:hover {background: #4cd37b;}
@@ -289,12 +304,13 @@ footer .address .left a {margin-right:15px;}
     .section02 h2 {
         font-size:30px;
         font-weight:700;
+        white-space:nowrap;
     }
     .s2_dot_color {font-size:30px;}
     .section02 p {
         font-size:14px;
         width:80%;
-        margin-bottom:45px;
+        margin-bottom:55px;
     }
     .section02 .s2_img_wrap {
         width:100%;
